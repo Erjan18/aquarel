@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary-600 hover:bg-primary-700 text-white focus:ring-primary-500;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-secondary-600 hover:bg-secondary-700 text-white focus:ring-secondary-500;
+  }
+  
+  .btn-accent {
+    @apply btn bg-accent-500 hover:bg-accent-600 text-white focus:ring-accent-400;
+  }
+  
+  .btn-outline {
+    @apply btn border border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 focus:ring-slate-300 dark:focus:ring-slate-700;
+  }
+  
+  .card {
+    @apply bg-white dark:bg-slate-800 rounded-lg shadow-md overflow-hidden transition-shadow duration-300 hover:shadow-lg;
+  }
+  
+  .input {
+    @apply px-4 py-2 rounded-md border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400 focus:border-transparent;
+  }
+  
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  
+  .badge-primary {
+    @apply badge bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-100;
+  }
+  
+  .badge-secondary {
+    @apply badge bg-secondary-100 dark:bg-secondary-900 text-secondary-800 dark:text-secondary-100;
+  }
+  
+  .badge-accent {
+    @apply badge bg-accent-100 dark:bg-accent-900 text-accent-800 dark:text-accent-100;
+  }
+}
