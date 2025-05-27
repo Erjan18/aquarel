@@ -75,7 +75,7 @@ export const blogPosts: BlogPost[] = [
       
       <p>Не забывайте, что практика — ключ к успеху в освоении акварельной техники. Экспериментируйте с разными материалами, смотрите обучающие видео и уроки, и ваши навыки будут постоянно улучшаться!</p>
     `,
-    image: 'https://images.pexels.com/photos/6053/man-hands-holidays-looking.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://risona.ru/wp-content/uploads/2022/11/akvarelnye-kraski-dlya-risovaniya.jpg',
     author: 'Анна Соколова',
     date: '12 апреля 2025',
     category: 'Рисование',
@@ -151,7 +151,7 @@ export const blogPosts: BlogPost[] = [
       
       <p>Поздравляем! Ваш первый шарф готов. Теперь вы можете экспериментировать с разными узорами и цветами, создавая уникальные аксессуары для любого сезона.</p>
     `,
-    image: 'https://images.pexels.com/photos/7047335/pexels-photo-7047335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://i.ytimg.com/vi/7kSrdCGS0fw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDEZWe79SOBN7c_F2se_T9ehST29g',
     author: 'Мария Петрова',
     date: '5 марта 2025',
     category: 'Вязание',
@@ -238,7 +238,7 @@ export const blogPosts: BlogPost[] = [
       
       <p>Творческие занятия — это прекрасный способ провести время с детьми, развить их способности и создать теплые воспоминания. Пробуйте новые идеи, и пусть творчество станет частью вашей семейной жизни!</p>
     `,
-    image: 'https://images.pexels.com/photos/4612432/pexels-photo-4612432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://blog.mann-ivanov-ferber.ru/wp-content/uploads/2018/07/image9.png',
     author: 'Елена Иванова',
     date: '18 февраля 2025',
     category: 'Детское творчество',
