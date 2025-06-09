@@ -67,7 +67,7 @@ const HomePage: React.FC = () => {
               </div>
               <h3 className="text-lg font-semibold mb-2">Быстрая доставка</h3>
               <p className="text-slate-600 dark:text-slate-400">
-                Доставляем заказы по всей России. Курьером, в пункты выдачи или почтой.
+                Доставляем заказы по всему Кыргызстану. Курьером, в пункты выдачи или почтой.
               </p>
             </div>
             

@@ -222,7 +222,7 @@ const ProductPage: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="flex items-center gap-2">
                 <Truck size={18} className="text-slate-600 dark:text-slate-400" />
-                <span className="text-sm">Доставка по всей России</span>
+                <span className="text-sm">Доставка по всему Кыргызстану</span>
               </div>
               <div className="flex items-center gap-2">
                 <RotateCcw size={18} className="text-slate-600 dark:text-slate-400" />
