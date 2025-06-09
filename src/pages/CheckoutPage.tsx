@@ -168,7 +168,7 @@ const CheckoutPage: React.FC = () => {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="+7 (___) ___-__-__"
+                    placeholder="+996(___) ___-___-"
                     className={`input w-full ${errors.phone ? 'border-red-500 dark:border-red-500' : ''}`}
                   />
                   {errors.phone && (
